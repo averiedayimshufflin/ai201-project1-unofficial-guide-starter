@@ -34,6 +34,7 @@ I chose student reviews of CS professors at UMD because although we have a rate 
 
 ---
 
+
 ## Chunking Strategy
 
 <!-- How will you split documents into chunks?
@@ -41,27 +42,13 @@ I chose student reviews of CS professors at UMD because although we have a rate 
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:**
+**Chunk size:** One student review per chunk for review pages; 800–1,000 tokens per chunk for longer course pages or syllabi.
 
-**Overlap:**
+**Overlap:** 0 overlap for individual reviews; 100–150 tokens of overlap for longer course pages.
 
-**Reasoning:**
+**Reasoning:** Most of my sources are review-heavy, so each student review should stay as its own chunk to keep the opinion, professor, course, and rating together. Longer official course pages need larger chunks with some overlap so related policies, grading details, and course information do not get split apart.
 
 ---
-
-## Retrieval Approach
-
-<!-- Which embedding model are you using (e.g., all-MiniLM-L6-v2 via sentence-transformers)?
-     How many chunks will you retrieve per query (top-k)?
-     If you were deploying this for real users and cost wasn't a constraint, what tradeoffs
-     would you weigh in choosing a different embedding model — context length, multilingual
-     support, accuracy on domain-specific text, latency? -->
-
-**Embedding model:**
-
-**Top-k:**
-
-**Production tradeoff reflection:**
 
 ---
 
@@ -74,23 +61,19 @@ I chose student reviews of CS professors at UMD because although we have a rate 
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What CMSC courses expect a heavy workload or mention specifically difficult projects?| The system should identify courses like CMSC216, CMSC330, or CMSC351 if reviews mention demanding projects, exams, or high time commitment.|
+| 2 | What official course policies from Christopher Kauffman’s CMSC216 page might explain student comments about workload?| The system should mention official course details such as projects, assignments, exams, grading policies, or course expectations that relate to workload.|
+| 3 | What do students say about Larry Herman’s teaching style in CMSC132 or CMSC216? | Students generally describe him as knowledgeable and experienced, but some reviews may mention that his courses can be strict, demanding, or fast-paced.|
+| 4 |What do students say about Justin Wyss-Gallifent’s CMSC351 or CMSC420 courses?| Students often describe him as clear, organized, and helpful, especially for difficult theoretical material, though the courses themselves may still be challenging.|
+| 5 |Which professors receive mixed or polarizing reviews?| The system should identify professors who have both positive and negative comments, especially where students disagree about teaching style, difficulty, or fairness.|
 
 ---
 
 ## Anticipated Challenges
 
-<!-- What could go wrong? Name at least two specific risks with reasoning.
-     Consider: noisy or inconsistent documents, missing source attribution, off-topic
-     retrieval, chunks that split key information across boundaries. -->
+1. Student reviews may be biased or inconsistent because each student has a different experience with the same professor.
 
-1.
-
-2.
+2. Retrieval may return off-topic chunks if reviews mention multiple professors, courses, or general CS difficulty.
 
 ---
 
@@ -101,6 +84,16 @@ I chose student reviews of CS professors at UMD because although we have a rate 
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+
+```mermaid
+flowchart LR
+    A[Document Ingestion<br/>Collect URLs from PlanetTerp, Rate My Professors, and UMD course pages] --> B[Chunking<br/>Split by individual review or 800-1000 token sections]
+    B --> C[Embedding + Vector Store<br/>Create embeddings and store chunks in a vector database]
+    C --> D[Retrieval<br/>Search for the most relevant chunks based on the user's question]
+    D --> E[Generation<br/>Use retrieved chunks to generate a grounded answer with sources]
+```
+
+My system will first collect professor review pages and official course pages. Then it will split the text into chunks, embed those chunks, store them in a vector database, retrieve the most relevant chunks for a question, and generate an answer based on the retrieved information.
 
 ---
 
