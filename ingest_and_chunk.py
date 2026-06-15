@@ -1,6 +1,7 @@
 import json
 import re
 from pathlib import Path
+import random
 
 import requests
 from bs4 import BeautifulSoup
@@ -198,7 +199,21 @@ def extract_review_chunks(html, source_name, url):
         if normalized in seen:
             continue
 
-        if len(text.split()) < 8:
+        bad_review_phrases = [
+            "Professor TA Expected Grade",
+            "Expected Grade A+",
+            "Add a new Professor",
+            "Review submitted successfully",
+            "Not sure what to write",
+            "Professor Filter",
+            "Sort By",
+            "Register to save your reviews",
+        ]
+
+        if len(text.split()) < 12:
+            continue
+
+        if any(phrase.lower() in text.lower() for phrase in bad_review_phrases):
             continue
 
         seen.add(normalized)
@@ -296,7 +311,7 @@ def main():
 
     print("\nFive sample chunks:\n")
 
-    for chunk in all_chunks[:5]:
+    for chunk in random.sample(all_chunks, min(5, len(all_chunks))):
         print("=" * 80)
         print(f"Chunk ID: {chunk['chunk_id']}")
         print(f"Source: {chunk['source']}")

@@ -79,7 +79,7 @@
             }
 
             $.ajaxSetup({
-                data: {"csrfmiddlewaretoken": "1KqJckfbzC595c9uB5iNb0McG9f1ZyEAXVzRlIuZqMgpXQ1TnGQc1LgKMtHbBpfM"}
+                data: {"csrfmiddlewaretoken": "yImzpXhMGSm7LcNaLtrXRxKg1mtznOXyh8GXM56amh1PwenfkAK8cDs4cEtJXYqd"}
             })
 
             /* Modified from: https://millionclues.com/internet/tracking-outbound-links-google-analytics/ (partially from https://stackoverflow.com/a/8496919/8255629) */
@@ -173,7 +173,7 @@
         <div id="add-professor-form-container">
             
 
-<form  id="professor-form-add" method="post" > <input type="hidden" name="csrfmiddlewaretoken" value="7l5YgYmv5mcD8tcSxOpDIC8mDFYaPCjV3we6pmBjWwnT074hjpX2ynCUJZqkrtU7"> <div id="add-professor-modal" class="modal fade "  aria-labelledby="add-professor-label-label" role="dialog" tabindex="-1"> <div class="modal-dialog modal-lg" role="document"> <div class="modal-content"> <div class="modal-header"> <h5 class="modal-title " id="add-professor-label">Add a new Professor/TA</h5> <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" style="float: left">&times;</span> </button> </div> <div class="modal-body"> <div id="success-banner-add" 
+<form  id="professor-form-add" method="post" > <input type="hidden" name="csrfmiddlewaretoken" value="ddz8yI3l21b6VZh8HXhSbLgupff9xhJSWDTwVQSJIqQOG1Rdg4A3wRYiAxfj7rcx"> <div id="add-professor-modal" class="modal fade "  aria-labelledby="add-professor-label-label" role="dialog" tabindex="-1"> <div class="modal-dialog modal-lg" role="document"> <div class="modal-content"> <div class="modal-header"> <h5 class="modal-title " id="add-professor-label">Add a new Professor/TA</h5> <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" style="float: left">&times;</span> </button> </div> <div class="modal-body"> <div id="success-banner-add" 
     class="alert alert-dismissable alert-success text-center w-100 rounded-0 d-none position-absolute"  style="z-index: 1;">
         Review submitted successfully! <button type="button" class="close">&times;</button>
 </div>
@@ -18541,7 +18541,7 @@ The only other complaint was that he rushed the end of the semester pretty hard,
 
 	function sortReviews(direction, professor) {
 		var data = {
-			"csrfmiddlewaretoken": "1KqJckfbzC595c9uB5iNb0McG9f1ZyEAXVzRlIuZqMgpXQ1TnGQc1LgKMtHbBpfM",
+			"csrfmiddlewaretoken": "yImzpXhMGSm7LcNaLtrXRxKg1mtznOXyh8GXM56amh1PwenfkAK8cDs4cEtJXYqd",
 			"direction": direction,
 			"professor": professor,
 			"type": "course",
@@ -18631,7 +18631,7 @@ The only other complaint was that he rushed the end of the semester pretty hard,
                         // to specify the csrf token manually.
                         // (or perhaps I'm mistaken and have made a mistake somewhere else that has caused the csrf
                         // token not to be passed).
-                        'csrfmiddlewaretoken': '1KqJckfbzC595c9uB5iNb0McG9f1ZyEAXVzRlIuZqMgpXQ1TnGQc1LgKMtHbBpfM'
+                        'csrfmiddlewaretoken': 'yImzpXhMGSm7LcNaLtrXRxKg1mtznOXyh8GXM56amh1PwenfkAK8cDs4cEtJXYqd'
                     },
                     // make sure the server has received our POST before refreshing, else the
                     // session's color scheme may not be set yet

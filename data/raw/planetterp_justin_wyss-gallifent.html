@@ -82,7 +82,7 @@
             }
 
             $.ajaxSetup({
-                data: {"csrfmiddlewaretoken": "zmOflcF5VzZqkNG8IV89C3SQogUEuTolLS5GCMvgPOCnugq4aUYzGw8YCLj08izr"}
+                data: {"csrfmiddlewaretoken": "VTMFlZUcoQJtm5ZvJmvYb0lThcpvRX0iZdKUq2RVtDnjyxc1B9q5ARYI1NDkHsbQ"}
             })
 
             /* Modified from: https://millionclues.com/internet/tracking-outbound-links-google-analytics/ (partially from https://stackoverflow.com/a/8496919/8255629) */
@@ -176,7 +176,7 @@
         <div id="add-professor-form-container">
             
 
-<form  id="professor-form-add" method="post" > <input type="hidden" name="csrfmiddlewaretoken" value="PF4PMGxtWAyenq8yAmnU0BIFio6fCDXR1blg3gnEQPbbxTSu2ldk44YNwTvBg28X"> <div id="add-professor-modal" class="modal fade "  aria-labelledby="add-professor-label-label" role="dialog" tabindex="-1"> <div class="modal-dialog modal-lg" role="document"> <div class="modal-content"> <div class="modal-header"> <h5 class="modal-title " id="add-professor-label">Add a new Professor/TA</h5> <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" style="float: left">&times;</span> </button> </div> <div class="modal-body"> <div id="success-banner-add" 
+<form  id="professor-form-add" method="post" > <input type="hidden" name="csrfmiddlewaretoken" value="PSNVvMyK6vl6J7Qmox5Q34zd7tXYzm8pTcLaAPvtbiZWVz3Sgk0XsVc2R4bNpRjX"> <div id="add-professor-modal" class="modal fade "  aria-labelledby="add-professor-label-label" role="dialog" tabindex="-1"> <div class="modal-dialog modal-lg" role="document"> <div class="modal-content"> <div class="modal-header"> <h5 class="modal-title " id="add-professor-label">Add a new Professor/TA</h5> <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" style="float: left">&times;</span> </button> </div> <div class="modal-body"> <div id="success-banner-add" 
     class="alert alert-dismissable alert-success text-center w-100 rounded-0 d-none position-absolute"  style="z-index: 1;">
         Review submitted successfully! <button type="button" class="close">&times;</button>
 </div>
@@ -305,7 +305,7 @@
 	<div id="review-form-container" style="display: none;">
 		
 
-<form  id="professor-form-review" method="post" > <input type="hidden" name="csrfmiddlewaretoken" value="zmOflcF5VzZqkNG8IV89C3SQogUEuTolLS5GCMvgPOCnugq4aUYzGw8YCLj08izr"> <div id="success-banner-review" 
+<form  id="professor-form-review" method="post" > <input type="hidden" name="csrfmiddlewaretoken" value="VTMFlZUcoQJtm5ZvJmvYb0lThcpvRX0iZdKUq2RVtDnjyxc1B9q5ARYI1NDkHsbQ"> <div id="success-banner-review" 
     class="alert alert-dismissable alert-success text-center w-100 rounded-0 d-none position-absolute"  style="z-index: 1;">
         Review submitted successfully! <button type="button" class="close">&times;</button>
 </div>
@@ -13544,7 +13544,7 @@ And if you&#x27;re going to be in his class, I suggest bringing yourself a scent
 		}
 
 		if (is_mod) {
-			initalizeAutoComplete('zmOflcF5VzZqkNG8IV89C3SQogUEuTolLS5GCMvgPOCnugq4aUYzGw8YCLj08izr');
+			initalizeAutoComplete('VTMFlZUcoQJtm5ZvJmvYb0lThcpvRX0iZdKUq2RVtDnjyxc1B9q5ARYI1NDkHsbQ');
 		}
 	});
 
@@ -13650,7 +13650,7 @@ And if you&#x27;re going to be in his class, I suggest bringing yourself a scent
 
 	function sortReviews(direction) {
 		var data = {
-			"csrfmiddlewaretoken": "zmOflcF5VzZqkNG8IV89C3SQogUEuTolLS5GCMvgPOCnugq4aUYzGw8YCLj08izr",
+			"csrfmiddlewaretoken": "VTMFlZUcoQJtm5ZvJmvYb0lThcpvRX0iZdKUq2RVtDnjyxc1B9q5ARYI1NDkHsbQ",
 			"direction": direction,
 			"type": "professor",
 			"obj_id": "1413"
@@ -13744,7 +13744,7 @@ And if you&#x27;re going to be in his class, I suggest bringing yourself a scent
                         // to specify the csrf token manually.
                         // (or perhaps I'm mistaken and have made a mistake somewhere else that has caused the csrf
                         // token not to be passed).
-                        'csrfmiddlewaretoken': 'zmOflcF5VzZqkNG8IV89C3SQogUEuTolLS5GCMvgPOCnugq4aUYzGw8YCLj08izr'
+                        'csrfmiddlewaretoken': 'VTMFlZUcoQJtm5ZvJmvYb0lThcpvRX0iZdKUq2RVtDnjyxc1B9q5ARYI1NDkHsbQ'
                     },
                     // make sure the server has received our POST before refreshing, else the
                     // session's color scheme may not be set yet
