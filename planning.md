@@ -50,8 +50,6 @@ I chose student reviews of CS professors at UMD because although we have a rate 
 
 ---
 
----
-
 ## Evaluation Plan
 
 <!-- List your 5 test questions with their expected correct answers.
@@ -99,18 +97,14 @@ My system will first collect professor review pages and official course pages. T
 
 ## AI Tool Plan
 
-<!-- For each part of the pipeline below, describe:
-     - Which AI tool you plan to use (Claude, Copilot, ChatGPT, etc.)
-     - What you'll give it as input (which sections of this planning.md, which requirements)
-     - What you expect it to produce
-     - How you'll verify the output matches your spec
-
-     "I'll use AI to help me code" is not a plan.
-     "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
-     with my specified chunk size and overlap" is a plan. -->
-
 **Milestone 3 — Ingestion and chunking:**
+
+I will use ChatGPT to make the ingestion and chunking script. I will give it my Documents section, Chunking Strategy, and Architecture diagram. It should make code that loads my 10 URLs, cleans the text, saves raw files, and creates chunks. I will check the output by reading one cleaned document and 5 sample chunks.
 
 **Milestone 4 — Embedding and retrieval:**
 
+I will use ChatGPT or Copilot to make the embedding and retrieval code. I will give it my `chunks.json` file and ask it to store the chunks in FAISS or Chroma. It should return the most relevant chunks for a question. I will test it with my 5 evaluation questions.
+
 **Milestone 5 — Generation and interface:**
+
+I will use ChatGPT to help make the final question-answer interface. I will give it my Evaluation Plan and retrieval code. It should answer user questions using the retrieved chunks and include sources. I will check that the answers are specific and based on my documents.

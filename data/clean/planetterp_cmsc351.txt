@@ -1,0 +1,199 @@
+CMSC351 | PlanetTerp
+Add a new Professor/TA
+Review submitted successfully!
+Note:
+Register
+to save your reviews to an account and to put a username next to your reviews
+Professor
+TA
+Expected Grade
+A+
+A
+A-
+B+
+B
+B-
+C+
+C
+C-
+D+
+D
+D-
+F
+P
+W
+XF
+Not sure what to write?
+CMSC351
+Algorithms
+Reviews for this course
+Testudo
+Prerequisite:
+Minimum grade of C- in
+CMSC250
+and
+CMSC216
+.
+Restriction:
+Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permission from the CMSC - Computer Science department.
+Credit only granted for:
+CMSC251 or
+CMSC351
+.
+Additional information:
+CMSC351
+may not count as one of the required upper level CMSC courses for students who are required to have 24 upper level CMSC credits for graduation, i.e. for students who became computer science majors prior to Fall, 2002.
+A systematic study of the complexity of some elementary algorithms related to sorting, graphs and trees, and combinatorics. Algorithms are analyzed using mathematical techniques to solve recurrences and summations.
+Sister Courses:
+CMSC351H
+Spring 2026
+Clyde Kruskal
+111 reviews
+Average rating:
+2.61
+Ting Jiang
+33 reviews
+Average rating:
+3.12
+Fall 2025
+Clyde Kruskal
+111 reviews
+Average rating:
+2.61
+Justin Wyss-Gallifent
+347 reviews
+Average rating:
+4.59
+Ting Jiang
+33 reviews
+Average rating:
+3.12
+Summer 2025
+Justin Wyss-Gallifent
+347 reviews
+Average rating:
+4.59
+Spring 2025
+Clyde Kruskal
+111 reviews
+Average rating:
+2.61
+Justin Wyss-Gallifent
+347 reviews
+Average rating:
+4.59
+Ting Jiang
+33 reviews
+Average rating:
+3.12
+Past Semesters
+Hector Corrada Bravo
+3 reviews
+Average rating:
+3.00
+Mohammad Hajiaghayi
+20 reviews
+Average rating:
+2.35
+Clyde Kruskal
+111 reviews
+Average rating:
+2.61
+Vibha Sazawal
+4 reviews
+Average rating:
+3.25
+Howard Elman
+4 reviews
+Average rating:
+3.50
+Evan Golub
+101 reviews
+Average rating:
+2.40
+Hamid Mahini
+0 reviews
+Average rating:
+N/A
+Mohammad Nayeem Teli
+150 reviews
+Average rating:
+3.56
+Justin Wyss-Gallifent
+347 reviews
+Average rating:
+4.59
+Erika Melder
+3 reviews
+Average rating:
+5.00
+Herve Franceschi
+61 reviews
+Average rating:
+4.10
+Justin Wyss-Gallifent
+347 reviews
+Average rating:
+4.59
+Maksym Morawski
+269 reviews
+Average rating:
+2.86
+Clyde Kruskal
+111 reviews
+Average rating:
+2.61
+Herve Franceschi
+61 reviews
+Average rating:
+4.10
+Maksym Morawski
+269 reviews
+Average rating:
+2.86
+Justin Wyss-Gallifent
+347 reviews
+Average rating:
+4.59
+Herve Franceschi
+61 reviews
+Average rating:
+4.10
+Clyde Kruskal
+111 reviews
+Average rating:
+2.61
+Justin Wyss-Gallifent
+347 reviews
+Average rating:
+4.59
+Herve Franceschi
+61 reviews
+Average rating:
+4.10
+Justin Wyss-Gallifent
+347 reviews
+Average rating:
+4.59
+Maksym Morawski
+269 reviews
+Average rating:
+2.86
+Clyde Kruskal
+111 reviews
+Average rating:
+2.61
+Herve Franceschi
+61 reviews
+Average rating:
+4.10
+Justin Wyss-Gallifent
+347 reviews
+Average rating:
+4.59
+Ting Jiang
+33 reviews
+Average rating:
+3.12
+Include P/F semesters
+* "W"s are considered to be 0.0 quality points. "Other" grades are not factored into GPA calculation. Grade data not guaranteed to be correct.

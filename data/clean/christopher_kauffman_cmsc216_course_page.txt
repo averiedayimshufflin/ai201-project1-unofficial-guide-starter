@@ -1,0 +1,154 @@
+CMSC216: Introduction to Computer Systems
+Last Updated: 2026-01-24 Sat 14:08
+CMSC216: Introduction to Computer Systems
+Table of Contents
+Welcome to CMSC216 2xx Sections S2026
+Calendar of Meetings and Office Hours
+Staff and Office Hours
+Meetings
+C Programming Resources
+Getting Started
+Welcome to CMSC216 2xx Sections S2026
+Essential links are below.
+Course Schedule and Materials
+: topics, slides, code, rough deadlines, projects, labs
+Syllabus
+: know our contract
+Gradescope
+: submit assignments, get grades on assignments/exams, request regrades
+Piazza
+: class discussion board for Q&A
+Canvas Site
+: take surveys, general coordination
+Mirror Site
+: to access course materials if Canvas/CS Servers are down
+CMSC216 Coding Environment
+: prepare to code
+CMSC216 C Coding Style Guide
+: code pretty
+Staff Gallery
+: pictures of staff to help students learn their names
+TA Slides / Tutorials
+: Public Google Drive of TA materials to support lab work
+Calendar of Meetings and Office Hours
+In-Person TA office hours are in
+IRB 1108
+; Online Office hours are via
+Zoom Links listed associated with the TAs.
+Office hours are open to all students without appointments. Students
+are strongly encouraged to visit the professor and teaching
+assistant(s) during office hours to further their understanding of the
+material:
+we are here to help you learn
+.
+Staff and Office Hours
+Name
+Email
+Role
+Office Hours
+Location
+Piazza
+Chris Kauffman
+profk@umd.edu
+Prof
+See Canvas
+Lasha Koroshinadze
+lasha@umd.edu
+GTA Full
+Yiming Gao
+gyming@umd.edu
+GTA Full
+Ayushi Mishra
+amishr13@umd.edu
+GTA Half
+Clara Gong
+cgong12@terpmail.umd.edu
+UTA Head
+Christian "CJ" Nygard
+cnygard@terpmail.umd.edu
+UTA
+Emily Hao
+ehao@terpmail.umd.edu
+UTA
+Jeffrey Cole
+jcole112@terpmail.umd.edu
+UTA
+Phan Anh Pham
+ppham05@terpmail.umd.edu
+UTA
+Rohan Panigrahi
+rpanigr@terpmail.umd.edu
+UTA
+Syed "Abdullah" Rizvi
+srizvi17@terpmail.umd.edu
+UTA
+Meetings
+Meeting
+Day / Time
+Location
+Staff
+Lec 2xx
+TuTh 11:00am - 12:15pm
+ARM 0135
+Kauffman
+Dis 201
+MW 08:00am - 08:50am
+CSI 3118
+See Canvas
+Dis 202
+MW 09:00am - 09:50am
+CSI 3120
+Dis 203
+MW 09:00am - 09:50am
+CSI 3118
+Dis 204
+MW 10:00am - 10:50am
+CSI 3118
+Dis 205
+MW 10:00am - 10:50am
+CSI 3120
+Dis 206
+MW 11:00am - 11:50am
+CSI 3120
+Dis 207
+MW 12:00pm - 12:50pm
+CSI 2120
+C Programming Resources
+C programming will play a major role in this class so start exploring.
+Beej's Guide to C Programming
+Humorous, irreverent, reasonably complete and ad free
+Wikibook on C Programming
+Beginning to advanced features with some pictures to supplement
+tricky concepts like arrays/pointers.
+The GNU C Programming Tutorial by Mark Burgess and Ron Hale-Evans,
+PDF
+or
+HTML
+A little scattered but decent.
+Learn C Programming from ProgramIZ
+Decent and has a wealth of examples though lots of ads
+C Programming Tutorial by Mark Burgess, circa 1999
+A bit dated and questionable code style but fairly complete and no ads, single web
+page
+Getting Started
+Review the Course Syllabus
+This will be our "contract" for the semester and contains tons of
+information on the flavor the course.
+https://www.cs.umd.edu/~profk/216/syllabus.html
+Examine the textbook website here:
+http://csapp.cs.cmu.edu/
+Computer Systems: A Programmer's Perspective
+, Third Edition by R. Bryant, D. O'Hallaron, Pearson, 2016.
+This required book has a lot of resources associated with it so it
+is worth examining the textbook website as well.
+Set Up your Coding Environment
+Review the
+CMSC216 Coding Environment Setup Guide
+and start
+experimenting with logging into the Grace server to compile and run
+C code,
+Web Accessibility
+Author: Chris Kauffman (
+profk@umd.edu
+)
+Date: 2026-01-24 Sat 14:08

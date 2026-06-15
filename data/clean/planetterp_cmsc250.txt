@@ -1,0 +1,224 @@
+CMSC250 | PlanetTerp
+Add a new Professor/TA
+Review submitted successfully!
+Note:
+Register
+to save your reviews to an account and to put a username next to your reviews
+Professor
+TA
+Expected Grade
+A+
+A
+A-
+B+
+B
+B-
+C+
+C
+C-
+D+
+D
+D-
+F
+P
+W
+XF
+Not sure what to write?
+CMSC250
+Discrete Structures
+Reviews for this course
+Testudo
+Prerequisite:
+Minimum grade of C- in
+CMSC131
+; and minimum grade of C- in
+MATH141
+.
+Restriction:
+Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permissions of CMSC - Computer Science department.
+Fundamental mathematical concepts related to computer science, including finite and infinite sets, relations, functions, and propositional logic. Introduction to other techniques, modeling and solving problems in computer science. Introduction to permutations, combinations, graphs, and trees with selected applications.
+Sister Courses:
+CMSC250H
+Spring 2026
+Fawzi Emad
+325 reviews
+Average rating:
+3.74
+Maksym Morawski
+269 reviews
+Average rating:
+2.86
+Fall 2025
+Fawzi Emad
+325 reviews
+Average rating:
+3.74
+Mohammad Nayeem Teli
+150 reviews
+Average rating:
+3.56
+Summer 2025
+Fawzi Emad
+325 reviews
+Average rating:
+3.74
+Spring 2025
+Fawzi Emad
+325 reviews
+Average rating:
+3.74
+Maksym Morawski
+269 reviews
+Average rating:
+2.86
+Past Semesters
+Michelle Hugue
+66 reviews
+Average rating:
+2.50
+Clyde Kruskal
+111 reviews
+Average rating:
+2.61
+Thomas Reinhardt
+0 reviews
+Average rating:
+N/A
+Jason Filippou
+37 reviews
+Average rating:
+3.95
+William Gasarch
+29 reviews
+Average rating:
+4.38
+Roger Eastman
+32 reviews
+Average rating:
+3.69
+Shangfu Peng
+0 reviews
+Average rating:
+N/A
+Alex Liao
+0 reviews
+Average rating:
+N/A
+Donald Perlis
+19 reviews
+Average rating:
+3.32
+Fawzi Emad
+325 reviews
+Average rating:
+3.74
+Mohammad Nayeem Teli
+150 reviews
+Average rating:
+3.56
+Aditya Acharya
+4 reviews
+Average rating:
+4.00
+Katherine Scola
+0 reviews
+Average rating:
+N/A
+David Sekora
+5 reviews
+Average rating:
+2.80
+Alexander Brassel
+0 reviews
+Average rating:
+N/A
+Justin Wyss-Gallifent
+347 reviews
+Average rating:
+4.59
+Emily Kaplitz
+12 reviews
+Average rating:
+5.00
+Cliff Bakalian
+172 reviews
+Average rating:
+3.33
+Cliff Bakalian
+172 reviews
+Average rating:
+3.33
+Clifford Bakalian
+0 reviews
+Average rating:
+N/A
+Mohammad Nayeem Teli
+150 reviews
+Average rating:
+3.56
+Cliff Bakalian
+172 reviews
+Average rating:
+3.33
+Mohammad Nayeem Teli
+150 reviews
+Average rating:
+3.56
+Paul Kline
+91 reviews
+Average rating:
+2.86
+Evan Golub
+101 reviews
+Average rating:
+2.40
+Justin Wyss-Gallifent
+347 reviews
+Average rating:
+4.59
+Paul Kline
+91 reviews
+Average rating:
+2.86
+Emily Kaplitz
+12 reviews
+Average rating:
+5.00
+Emily Kaplitz
+12 reviews
+Average rating:
+5.00
+Mohammad Nayeem Teli
+150 reviews
+Average rating:
+3.56
+Paul Kline
+91 reviews
+Average rating:
+2.86
+Maksym Morawski
+269 reviews
+Average rating:
+2.86
+Mohammad Nayeem Teli
+150 reviews
+Average rating:
+3.56
+Paul Kline
+91 reviews
+Average rating:
+2.86
+Fawzi Emad
+325 reviews
+Average rating:
+3.74
+Mohammad Nayeem Teli
+150 reviews
+Average rating:
+3.56
+Paul Kline
+91 reviews
+Average rating:
+2.86
+Include P/F semesters
+* "W"s are considered to be 0.0 quality points. "Other" grades are not factored into GPA calculation. Grade data not guaranteed to be correct.
