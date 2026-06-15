@@ -11,25 +11,26 @@
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
 
+I chose student reviews of CS professors at UMD because although we have a rate my professor-inspired website, it is difficult to find all possible student reviews because not everyone is inclined to post on that website regarding their personal experience. Instead you may find reviews on forums like reddit or even on various social media platforms. Furthermore, there is certain bias on more websites than one and some reviews are not as specific as others. 
+
 ---
 
 ## Documents
 
 <!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
      Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
-
-| # | Source | Description | URL or location |
-|---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| #  | Source                                   | Description                                                                             | URL or location                                    |
+| -- | ---------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| 1  | PlanetTerp CMSC132 Reviews               | Student reviews for CMSC132 professors.                                                 | https://planetterp.com/course/CMSC132/reviews      |
+| 2  | PlanetTerp CMSC216 Reviews               | Student reviews for CMSC216 professors and course workload.                             | https://planetterp.com/course/CMSC216/reviews      |
+| 3  | PlanetTerp CMSC250                       | Ratings and professor history for CMSC250.                                              | https://planetterp.com/course/CMSC250              |
+| 4  | PlanetTerp CMSC330 Reviews               | Student reviews for CMSC330 instructors.                                                | https://planetterp.com/course/CMSC330/reviews      |
+| 5  | PlanetTerp CMSC351                       | Ratings and review counts for CMSC351 professors.                                      | https://planetterp.com/course/CMSC351              |
+| 6  | PlanetTerp Justin Wyss-Gallifent         | Professor-level reviews for Justin Wyss-Gallifent across CMSC courses.                 | https://planetterp.com/professor/wyss-gallifent    |
+| 7  | PlanetTerp Larry Herman                  | Professor-level reviews for Larry Herman across CMSC courses.                          | https://planetterp.com/professor/herman_larry      |
+| 8  | Rate My Professors Fawzi Emad            | Student ratings and comments for Fawzi Emad.                                           | https://www.ratemyprofessors.com/professor/313062  |
+| 9  | Rate My Professors Ilchul Yoon           | Student ratings and comments for Ilchul Yoon.                                          | https://www.ratemyprofessors.com/professor/2327417 |
+| 10 | Christopher Kauffman CMSC216 Course Page | Official CMSC216 course page for comparing student reviews with actual course policies. | https://www.cs.umd.edu/~profk/216/                 |
 
 ---
 
